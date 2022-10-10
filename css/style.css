@@ -9,14 +9,37 @@
 /* COMMON */
 
 .box{
+    
     background-color: #006cfa;
     height: 50px;
     border: 1px solid white;
 }
 
+.box-2{
+    background-color: #00e165;
+    border: 5px solid #006cfa;
+    
+    height: 30px;
+}
+
+
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.section-2{
+    margin-top: 20px;
 }
 /* CONTAINER */
 
@@ -72,5 +95,57 @@
 }
 
 .col-12{
+    width: calc(100% / 12 * 12);
+}
+
+
+
+/* INSIDE */
+
+.col-in-1{
+    width: calc(100% / 12 * 1);
+}
+
+.col-in-2{
+    width: calc(100% / 12 * 2);
+}
+
+.col-in-3{
+    width: calc(100% / 12 * 3);
+}
+
+.col-in-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-in-5{
+    width: calc(100% / 12 * 5);
+}
+
+.col-in-6{
+    width: calc(100% / 12 * 6);
+}
+
+.col-in-7{
+    width: calc(100% / 12 * 7);
+}
+
+.col-in-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-in-9{
+    width: calc(100% / 12 * 9);
+}
+
+.col-in-10{
+    width: calc(100% / 12 * 10);
+}
+
+.col-in-11{
+    width: calc(100% / 12 * 11);
+}
+
+.col-in-12{
     width: calc(100% / 12 * 12);
 }
