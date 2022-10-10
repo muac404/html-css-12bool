@@ -24,8 +24,6 @@
 }
 
 
-
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +35,10 @@
     justify-content: center;
     align-content: center;
     padding: 10px;
+}
+
+.section-1{
+    margin-top: 10px;
 }
 
 .section-2{
